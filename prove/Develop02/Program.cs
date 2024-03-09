@@ -1,5 +1,9 @@
 using System;
 
+
+// As a way to show creativity and exceed requirements, I added additional information to the journal entry.
+// In addition to the date, prompt, and response, each journal entry now also includes the user's name and mood for that day.
+
 class Program
 {
     static void Main(string[] args)
