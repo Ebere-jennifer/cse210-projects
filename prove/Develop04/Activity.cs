@@ -48,13 +48,13 @@ public class Activity
         int index = 0;
 
         for (int i = 0; i < seconds * 2; i++) // Multiplying by 2 to increase the number of iterations
-    {
-        Console.Write(spinChars[index]);
-        Thread.Sleep(1000); // Increased delay time for a slower spinning effect
-        Console.SetCursorPosition(Console.CursorLeft - 1, Console.CursorTop); // Move cursor back to overwrite the previous spinner
-        index = (index + 1) % spinChars.Length; // Update the index to get the next spinner character
+        {
+            Console.Write(spinChars[index]);
+            Thread.Sleep(1000); // Increased delay time for a slower spinning effect
+            Console.SetCursorPosition(Console.CursorLeft - 1, Console.CursorTop); // Move cursor back to overwrite the previous spinner
+            index = (index + 1) % spinChars.Length; // Update the index to get the next spinner character
+        }
     }
-}
 
 
     protected void ShowCountDown(int seconds)
