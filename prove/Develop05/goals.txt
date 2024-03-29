@@ -1,0 +1,7 @@
+1520
+SimpleGoal: Give a talk, Speak in a Sacrament meeting when asked, 200, True
+EternalGoal: Study the scriptures, Study for at least 20 minutes each day, 100
+ChecklistGoal: Attend the temple, Attend and perform any ordinance. Do it worthily, 675, 4, 600, 4
+ChecklistGoal: Wake up early, Wake up by 6am, 20, 10, 400, 6
+SimpleGoal: Get fatter, Eat healthy meals, 100, True
+EternalGoal: Get married in the temple, B sealed with my husband for time and eternity, 50
