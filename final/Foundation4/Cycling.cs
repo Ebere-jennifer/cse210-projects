@@ -3,26 +3,29 @@ using System.Collections.Generic;
 
 class Cycling : Activity
 {
-    private double speed;
+    private double _speed;
 
     public Cycling(DateTime date, int minutes, double speed)
         : base(date, minutes)
     {
-        this.speed = speed;
+        _speed = speed;
     }
 
     public override double GetSpeed()
     {
-        return speed;
+        return Math.Round(_speed, 1); // Round speed to 1 decimal place
     }
 
     public override double GetDistance()
     {
-        return speed * (minutes / 60.0);
+        double distance = _speed * (_minutes / 60.0);
+        return Math.Round(distance, 1); // Round distance to 1 decimal place
     }
 
     public override double GetPace()
     {
-        return 60.0 / speed;
+        double pace = 60.0 / _speed;
+        return Math.Round(pace, 1); // Round distance to 1 decimal place
+        // return pace.ToString("F2");
     }
 }

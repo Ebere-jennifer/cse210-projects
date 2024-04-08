@@ -31,9 +31,3 @@ class Product
         return _productId;
     }
 }
-
-
-
-
-
-

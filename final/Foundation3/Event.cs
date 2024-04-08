@@ -32,4 +32,3 @@ class Event
         return $"Type of Event: Generic\nEvent Title: {_title}\nDate: {_date.ToShortDateString()}";
     }
 }
-

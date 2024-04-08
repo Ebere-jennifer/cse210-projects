@@ -5,7 +5,7 @@ using System.Collections.Generic;
 // In this program, I was able to write a program that keeps track of YouTube videos and the comments left on them. 
 // I created 4 videos and set the appropriate values, and for each one of the videos i added a list of 3-5 comments (alongside
 // the commenter's name and text). Afterwards, i placed each of these videos in a list. Below is the output of one of the videos and 
-// comment. 
+// comment:
 
 // Title: Video 4
 // Author: Author 4

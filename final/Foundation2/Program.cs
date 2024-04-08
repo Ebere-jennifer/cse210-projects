@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 // Encapsulation with Online Ordering
 // In this program, I was able to write a program that has classes for Product, Customer, Address, and Order. The program 
-// created three orders with a 2 products each. There was a call to the methods to get the packing label, the shipping label, 
-// and the total price of the order, and display the results of these methods. Below is the output of one of the orders: 
+// created three orders with 2 products each. There was a call to the methods to get the packing label, the shipping label, 
+// and the total price of the order, and then i displayed the results of these methods. Below is the output of one of the orders: 
 
 // Packing Label:
 // Smart Phone - W1

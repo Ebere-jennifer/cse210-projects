@@ -40,4 +40,3 @@ class Video
         Console.WriteLine();
     }
 }
-
